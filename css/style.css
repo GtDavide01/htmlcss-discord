@@ -13,17 +13,15 @@ html{
     display: flex;
 }
 .contentimg{
-    min-height: 400px;
-    width: 60%;
+    padding: 2%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 .contenttext{
-    min-height: 400px;
-    width: 40%;
+    padding: 2%;
+    width: 100%;
     text-align: left;
-    justify-content: center;
-    align-items: center;
 }
 h1{
     font-size: 3rem;
@@ -35,13 +33,13 @@ p{
 }
 .sectioncontent{
     width: 100%;
-    min-height: 600px;
+    padding: 2%;
 }
 .wrapper{
     display: flex;
     margin: 0 auto ;
     width: 70%;
-    min-height: 600px;
+    padding: 2%;
     justify-content: center;
     align-items: center;
 }
@@ -95,7 +93,7 @@ header{
     background-position: center;
 }
 .jumbotron{
-    min-height: 400px;
+    padding: 2%;
     width: 80%;
     text-align: center;
     color: white;
@@ -138,7 +136,7 @@ header{
 
 /* FifthSection */
 .fifth{
-    min-height: 900px;
+    padding: 2%;
     background-color:rgb(211,211,211);
     justify-content: center;
     align-items: center;
@@ -146,7 +144,7 @@ header{
 .contentbig{
     display: flex;
     flex-direction: column;
-    min-height: 800px;
+    padding: 2%;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -187,7 +185,7 @@ footer{
 }
 .info{
     margin-top: 5px;
-    min-height: 500px;
+    padding: 2%;
     width: 18%;
 }
 .social{
@@ -250,3 +248,4 @@ footer hr{
     background-color: rgb(113,137,218);
 }
 /* /Footer */
+
