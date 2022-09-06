@@ -249,3 +249,12 @@ footer hr{
 }
 /* /Footer */
 
+.waves {
+    margin-bottom: -10px;
+}
+
+.reverse{
+    margin-top: -10px;
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+}
