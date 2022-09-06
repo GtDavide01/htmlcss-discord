@@ -1,0 +1,252 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HTML */
+html{
+    font-family: 'Roboto' , sans-serif;
+}
+/* COMMON */
+.flex{
+    display: flex;
+}
+.contentimg{
+    min-height: 400px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.contenttext{
+    min-height: 400px;
+    width: 40%;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.sectioncontent{
+    width: 100%;
+    min-height: 600px;
+}
+.wrapper{
+    display: flex;
+    margin: 0 auto ;
+    width: 70%;
+    min-height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+/* HEADER */
+.wrapperheader{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+}
+header{
+    height: 80px;
+    background-color: rgb(37,94,233,1) ;
+}
+.conthead{
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    text-align: center;
+    flex-grow: 2;
+}
+.conthead ul{
+    display: flex;
+    justify-content: center;
+}
+.link li{
+    list-style-type: none;
+    padding-left: 20px;
+    color: white;
+    font-size: 1.rem;
+}
+/* /HEADER */
+
+/* Main */
+
+/* FirstSection */
+.first{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron{
+    min-height: 400px;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.jumbotron h1{
+    margin-top: 80px;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.jumbotron p{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+#browser{
+    color: white;
+    background-color: black ;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+#scarica{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+/* SecondSection */
+.second{
+    background-color: white;
+}
+
+/* ThirdSection */
+.third{
+    background-color:rgb(211,211,211);
+}
+
+/* FourthSection */
+.fourth{
+    background-color:white;
+}
+
+/* FifthSection */
+.fifth{
+    min-height: 900px;
+    background-color:rgb(211,211,211);
+    justify-content: center;
+    align-items: center;
+}
+.contentbig{
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 80%;
+    height: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.stars{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    width: 40%;
+    height: 50px;
+}
+.stars p{
+    font-weight: bold;
+    font-size: 1.7em;
+    text-align: center;
+}
+.downloadblu{
+    background-color: rgb(113,137,218);
+    color: white;
+    font-size: 15px;
+}
+/* Footer */
+footer{
+    height: 630px;
+    background-color: rgb(35,39,42);
+}
+.wrapperinfo{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    height: 60%;
+    margin-bottom: 160px;
+}
+.info{
+    margin-top: 5px;
+    min-height: 500px;
+    width: 18%;
+}
+.social{
+    flex-grow: 2;
+}
+.footernav{
+    width: 70%;
+    height: 65px;
+    margin : 0 auto ;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottonfooter{
+    justify-content: end;
+    width: 10%;
+    height: 40px;
+}
+.wrapperinfo h2{
+    margin-top: 50px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: rgb(113,137,218);
+}
+
+
+.info img{
+    vertical-align: middle;
+    height: 30px;
+    width: 50px;
+}
+.info span{
+    vertical-align: middle;
+    color: white;
+}
+.info i{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 10px;
+}
+
+.info ul{
+    color: rgb(113,137,218);
+    margin-top: 50px;
+}
+.info li{
+    list-style-type: none;
+    color: white;
+    margin-top: 20px;
+}
+footer hr{
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(113,137,218); background:rgb(113,137,218); border: 0; height: 1px;
+}
+#registrati{
+    color: white;
+    background-color: rgb(113,137,218);
+}
+/* /Footer */
